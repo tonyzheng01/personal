@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?&family=Ubuntu+Mono&family=Raleway&display=swap");
+
+.bg-blur {
+  backdrop-filter: blur(32px);
+}
+
+.font-ssp {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-anaglyph {
+  animation-name: anaglyph;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anaglyph {
+  0% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: -0.06em 0 red, 0.06em 0 cyan;
+  }
+}
+
+.h-half {
+  height: 50%;
+}

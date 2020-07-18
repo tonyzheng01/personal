@@ -1,0 +1,13 @@
+.theme-TCD {
+  --color-primary: #411218;
+  --color-secondary: #e8982e;
+}
+
+.theme-LR {
+  --color-primary: #633119;
+  --color-secondary: #7398aa;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
