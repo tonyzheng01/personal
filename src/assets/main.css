@@ -14376,8 +14376,8 @@ video {
   }
 }
 
-.h-half {
-  height: 50%;
+.photo-height {
+  height: 65%;
 }
 
 @media (min-width: 640px) {

@@ -9,7 +9,6 @@
     "papaparse": "^5.2.0",
     "react": "^16.13.1",
     "react-blur": "^0.6.0",
-    "react-bootstrap": "^1.0.1",
     "react-csv-reader": "^3.0.6",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
